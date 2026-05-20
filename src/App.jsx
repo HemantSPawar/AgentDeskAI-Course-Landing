@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import './App.css'
 
-const paymentLink = import.meta.env.VITE_PAYMENT_FORM_URL || 'https://payments.cashfree.com/forms/agentdeskai'
+const paymentLink = 'https://payments.cashfree.com/forms/agentdeskai'
 const successRedirectUrl = import.meta.env.VITE_SUCCESS_REDIRECT_URL || 'https://drive.google.com/drive/folders/1zcf0Cj9mbL1GPXC720gC6jxJgP6kWa2A?usp=sharing'
 
 const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
@@ -19,7 +19,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
         <a href="#access-now" class="d-none d-lg-inline-block small text-muted-soft px-2">Access Process</a>
         <a href="#faq" class="d-none d-lg-inline-block small text-muted-soft px-2">FAQ</a>
         <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-2 fw-bold" target="_blank" rel="noopener">
-          Enroll ₹0.1 <i class="bi bi-arrow-right ms-1"></i>
+          Enroll INR 499 <i class="bi bi-arrow-right ms-1"></i>
         </a>
       </div>
     </div>
@@ -39,7 +39,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
             </p>
             <div class="d-flex flex-column flex-sm-row gap-3 mb-4">
               <a href="${paymentLink}" class="btn btn-brand btn-lg rounded-pill px-5 py-3 fw-bold" target="_blank" rel="noopener">
-                Get Launch Access for ₹0.1 <i class="bi bi-arrow-right ms-2"></i>
+                Get Launch Access for INR 499 <i class="bi bi-arrow-right ms-2"></i>
               </a>
               <a href="#curriculum" class="btn btn-outline-soft btn-lg rounded-pill px-5 py-3 fw-bold">
                 See Curriculum
@@ -62,7 +62,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
                 <div class="row g-3 mb-4">
                   <div class="col-4"><div class="soft-card p-3 text-center h-100"><div class="stat-number">5</div><small class="text-muted-soft">Chapters</small></div></div>
                   <div class="col-4"><div class="soft-card p-3 text-center h-100"><div class="stat-number">1</div><small class="text-muted-soft">Capstone</small></div></div>
-                  <div class="col-4"><div class="soft-card p-3 text-center h-100"><div class="stat-number">₹0.1</div><small class="text-muted-soft">Launch</small></div></div>
+                  <div class="col-4"><div class="soft-card p-3 text-center h-100"><div class="stat-number">INR 499</div><small class="text-muted-soft">Launch</small></div></div>
                 </div>
                 <div class="warning-box p-3 small">
                   <div class="fw-bold mb-1"><i class="bi bi-whatsapp me-1"></i> Access after payment</div>
@@ -194,8 +194,8 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
                 <h2 class="display-5 fw-bold mb-3">Start building AgentDesk AI today</h2>
                 <p class="text-muted-soft fs-5 mx-auto mb-4 pricing-copy">Get the complete launch course package with foundation chapters, capstone, source/code reference, prompts and implementation notes.</p>
                 <div class="d-flex justify-content-center align-items-end gap-3 mb-3">
-                  <span class="price">₹0.1</span>
-                  <span class="strike fs-3 mb-3">₹0.1</span>
+                  <span class="price">INR 499</span>
+                  <span class="strike fs-3 mb-3">INR 5000</span>
                 </div>
                 <p class="text-muted-soft mb-4">One-time launch access. No subscription.</p>
                 <a href="${paymentLink}" class="btn btn-brand btn-lg rounded-pill px-5 py-3 fw-bold" target="_blank" rel="noopener">
@@ -232,7 +232,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
                 <h3 class="h4 fw-bold">Access Support</h3>
                 <p class="text-muted-soft mb-4">For quick verification, please use the correct name, email and phone while paying. <strong class="text-white">Once done, share screenshot of the payment on WhatsApp: +91-9545566464. Then course link will be shared.</strong></p>
                 <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-3 fw-bold w-100" target="_blank" rel="noopener">
-                  Pay ₹0.1 Now <i class="bi bi-arrow-right ms-2"></i>
+                  Pay INR 499 Now <i class="bi bi-arrow-right ms-2"></i>
                 </a>
                 <p class="small text-muted-soft mt-3 mb-0">Manual access is temporary. Success redirect for testing: <a href="${successRedirectUrl}" target="_blank" rel="noopener">Open Drive Folder</a>.</p>
               </div>
@@ -299,7 +299,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
           <p class="text-muted-soft small mb-0">Support: hemantspawar1991@gmail.com</p>
         </div>
         <div class="col-md-auto">
-          <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-3 fw-bold" target="_blank" rel="noopener">Enroll Now ₹0.1</a>
+          <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-3 fw-bold" target="_blank" rel="noopener">Enroll Now INR 499</a>
         </div>
       </div>
     </div>
@@ -309,7 +309,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
     <div class="container container-max d-flex align-items-center justify-content-between gap-3">
       <div>
         <div class="fw-bold lh-1">AgentDesk AI</div>
-        <small class="text-muted-soft">Launch access ₹0.1</small>
+        <small class="text-muted-soft">Launch access INR 499</small>
       </div>
       <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-2 fw-bold" target="_blank" rel="noopener">Buy Now</a>
     </div>
