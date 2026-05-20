@@ -45,10 +45,6 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
                 See Curriculum
               </a>
             </div>
-            <div class="alert alert-warning border-0 rounded-4 p-3 mb-4" style="background: rgba(255,193,7,.12); color:#fde68a;">
-              <div class="fw-bold mb-1"><i class="bi bi-info-circle-fill me-1"></i> How access works</div>
-              <strong>Once done, share screenshot of the payment on WhatsApp: +91-9545566464.</strong><br>Then course link will be shared.
-            </div>
             <div class="d-flex flex-wrap gap-3 text-muted-soft small">
               <span><i class="bi bi-check-circle-fill text-success me-1"></i> Downloadable course package</span>
               <span><i class="bi bi-check-circle-fill text-success me-1"></i> Beginner-friendly</span>
@@ -65,8 +61,8 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
                   <div class="col-4"><div class="soft-card p-3 text-center h-100"><div class="stat-number">INR 499</div><small class="text-muted-soft">Launch</small></div></div>
                 </div>
                 <div class="warning-box p-3 small">
-                  <div class="fw-bold mb-1"><i class="bi bi-whatsapp me-1"></i> Access after payment</div>
-                  <strong>Once done, share screenshot of the payment on WhatsApp: +91-9545566464.</strong><br>Then course link will be shared.
+                  <div class="fw-bold mb-1"><i class="bi bi-check-circle-fill me-1"></i> Instant access flow</div>
+                  Complete payment on the secure page and follow on-screen access instructions.
                 </div>
               </div>
             </div>
@@ -174,8 +170,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
               <h3 class="h4 fw-bold">How access works?</h3>
               <div class="vstack gap-3 mt-4">
                 <div class="check-line"><i class="bi bi-check-circle-fill"></i><span>Pay securely through Cashfree using the launch link.</span></div>
-                <div class="check-line"><i class="bi bi-check-circle-fill"></i><span><strong>Once done, share screenshot of the payment on WhatsApp: +91-9545566464.</strong></span></div>
-                <div class="check-line"><i class="bi bi-check-circle-fill"></i><span>Then course link will be shared after payment verification.</span></div>
+                <div class="check-line"><i class="bi bi-check-circle-fill"></i><span>Get access instructions on the success page right after payment.</span></div>
                 <div class="check-line"><i class="bi bi-check-circle-fill"></i><span>Join the learner batch for doubts, updates and bonus material.</span></div>
               </div>
             </div>
@@ -218,11 +213,11 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
             <div class="col-lg-7">
               <div class="mini-label mb-2">How access works</div>
               <h2 class="h1 fw-bold mb-3">Pay securely, verify once, and start learning</h2>
-              <p class="text-muted-soft fs-5 mb-4">For the launch batch, access is verified through your successful Cashfree payment screenshot.</p>
+              <p class="text-muted-soft fs-5 mb-4">For the launch batch, access instructions are shown automatically after successful payment.</p>
               <div class="vstack gap-3">
                 <div class="check-line"><i class="bi bi-1-circle-fill"></i><span>Pay securely through Cashfree using the launch link.</span></div>
-                <div class="check-line"><i class="bi bi-2-circle-fill"></i><span><strong>Once done, share screenshot of the payment on WhatsApp: +91-9545566464.</strong></span></div>
-                <div class="check-line"><i class="bi bi-3-circle-fill"></i><span>Then course link will be shared after payment verification.</span></div>
+                <div class="check-line"><i class="bi bi-2-circle-fill"></i><span>Get access instructions instantly on the success page.</span></div>
+                <div class="check-line"><i class="bi bi-3-circle-fill"></i><span>Open your course package and start learning immediately.</span></div>
                 <div class="check-line"><i class="bi bi-4-circle-fill"></i><span>Join the learner batch for doubts, updates and bonus material.</span></div>
               </div>
             </div>
@@ -230,7 +225,7 @@ const pageMarkup = `<nav class="navbar navbar-expand-lg sticky-top nav-shell">
               <div class="soft-card p-4 h-100">
                 <div class="feature-icon mb-4"><i class="bi bi-whatsapp"></i></div>
                 <h3 class="h4 fw-bold">Access Support</h3>
-                <p class="text-muted-soft mb-4">For quick verification, please use the correct name, email and phone while paying. <strong class="text-white">Once done, share screenshot of the payment on WhatsApp: +91-9545566464. Then course link will be shared.</strong></p>
+                <p class="text-muted-soft mb-4">Use the correct name, email and phone while paying so your access details are delivered correctly.</p>
                 <a href="${paymentLink}" class="btn btn-brand rounded-pill px-4 py-3 fw-bold w-100" target="_blank" rel="noopener">
                   Pay INR 499 Now <i class="bi bi-arrow-right ms-2"></i>
                 </a>
