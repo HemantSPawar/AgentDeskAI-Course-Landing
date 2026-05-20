@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: agentdeskai-course-landing
+    env: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    autoDeploy: true
